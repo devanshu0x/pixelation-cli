@@ -137,7 +137,7 @@ png_bytep * read_image(FILE * fp,int * width,int * height){
 int main(int argc, char const *argv[])
 {
     if(argc<3){
-        fprintf(stderr,"Usage ./pixalate <input_image_name.png>  <output_image_name.png>\n");
+        fprintf(stderr,"Usage ./pixalate <input_image_name.png>  <output_image_name.png> <pixelation_factor>(optional)\n");
         return 1;
     }
     const char * input=NULL, *output=NULL;
